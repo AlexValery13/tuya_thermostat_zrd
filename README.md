@@ -284,6 +284,7 @@ Thanks :))))
 	- Fixed error of enabling programming mode for Model r07 `_TZE204_mpbki2zm`.
 - 1.0.22
 	- The bootloader replacement procedure has been changed. Now, updating from the original firmware to the custom one is a single operation.
+	- Added thermostat with signature `_TZE200_lndsb16m`
 	
 [Top](#Top)
 
