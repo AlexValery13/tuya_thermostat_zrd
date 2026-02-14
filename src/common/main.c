@@ -86,7 +86,7 @@ _attribute_ram_code_ void bootloader_copy(uint32_t bootloader_addr) {
 //        /* erase last sector multiple of 0x1000 */
 //        app_flash_erase_sector(bootloader_addr);
 
-//        app_flash_erase_sector(ZIGBEE_MAC_FADDR);
+        app_flash_erase_sector(ZIGBEE_MAC_FADDR);
 
         erase_size = IMAGE_OTA_FADDR_END - IMAGE_OTA_FADDR;
 
