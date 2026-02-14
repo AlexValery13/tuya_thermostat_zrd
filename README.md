@@ -102,7 +102,7 @@ After the update is complete, the first time you launch the custom firmware, it 
 That's it, the thermostat is ready to go.
 
 > [!WARNING]
-> Attention!!! If in the process you find a new updateon other Tuya devices that you may still have in your system, you do not need to update anything!!! Otherwise you will flash into this device firmware from the thermostat and get a brick!!!! If the update process has already started by mistake, just turn off the device!!!
+> Attention!!! If in the process you find a new updateon other Tuya devices that you may still have in your system, you do not need to update anything!!! Otherwise you will flash into this device firmware from the thermostat and get a brick!!! If the update process has already started by mistake, just turn off the device!!!
 
 
 This is what the log looks like on the first startup after upgrading from Tuya to custom firmware.
