@@ -1,7 +1,5 @@
 #include "app_main.h"
 
-//static uint32_t last_light = 0;
-
 app_ctx_t g_appCtx = {
         .bdbFBTimerEvt = NULL,
         .factory_resetTimerEvt = NULL,
