@@ -82,62 +82,55 @@ To keep it from spamming the network. The first instance (see above) sent 25 pac
 
 ## How to update.
 
-First, add external [converter](zigbee2mqtt/convertors) `tuya_thermostat_orig.js` to z2m. He activates OTA in z2m for thermostat with Tuya firmware. Put the converter in the directory ` external_converters` , which should be created in the root of z2m.
+With the release of the new version, `zigbee2mqtt` updating has become much easier.
 
-Next, you need to add a local update repository.
+<img src="doc/images/z2m-version.jpg"/>
 
-Create a directory` images` in the z2m directory and put the file [1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee](bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee) there.
+You just need to switch to the new interface - `zigbee2mqtt-windfront`.
 
-Copy the file [local_ota_index.json](zigbee2mqtt/local_ota_index.json) to the z2m directory.
+So, let's download it from the repository <a id="custom_ota_fw">[Update file](https://github.com/slacky1965/tuya_thermostat_zrd/raw/refs/heads/main/bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee)</a>. Go to the device. And on the right, you'll see `Firmware versiona` cloud icon. This is where we'll go.
 
-And add local storage to the z2m config (configuration.yaml)
+<img src="doc/images/z2m-ota_device.jpg"/>
 
-```
-ota:
-  zigbee_ota_override_index_location: local_ota_index.json
-```
+Next, select `Custom firmware` from the list that opens.
 
-Then reboot z2m and see a new device (if the thermostat was already in the network and visible in z2m).
+<img src="doc/images/z2m-ota_custom_firmware.jpg"/>
 
-<img src="doc/images/z2m_tuya_1.jpg"/>
+After this, select the file you downloaded earlier (see [above](#custom_ota_fw)).
 
-Then go to the OTA section. And see your device there. Click check for updates.
-<img src="doc/images/z2m_tuya_update_1.jpg"/>
+<img src="doc/images/z2m-ota_file_selection.jpg"/>
 
-<img src="doc/images/z2m_tuya_update_2.jpg"/>
+And click update.
 
-Hit the red button. And update.
+<img src="doc/images/z2m-ota_update.jpg"/>
 
-<img src="doc/images/z2m_tuya_update_3.jpg"/>
+To see if the update has started, look at the thermostat icon  a rotating circle with arrows should appear. In `Recent activity` the remaining time in seconds and the download percentage will be displayed.
 
-If the result is not as described, it means you did something wrong (did not put the file where it should be, did not reboot z2m) or your thermostat signature is not in the list of supported devices.
+<img src="doc/images/z2m-ota_process.jpg"/>
+
+And all this will be recorded in the log.
+
+<img src="doc/images/z2m-ota_log.jpg"/>
+
+After the update is complete, the first time you launch the custom firmware, it copies `bootloader` and clears the memory area where the device's network address is stored. Therefore, after the update, simply allow pairing, `zigbee2mqtt` and the thermostat will automatically connect to the network. All that remains is to forcefully uninstall the old version of the thermostat.
+
+That's it, the thermostat is ready to go.
 
 > [!WARNING]
-> Attention!!! If, in the process, you find a new update for other Tuya devices that you may still have in your system, you do not need to update anything!!!! Otherwise, you will flash into this device firmware from the thermostat and get a brick!!!! If the update process has already started by mistake, just turn off the device!!!!
+> Attention!!! If in the process you find a new updateon other Tuya devices that you may still have in your system, you do not need to update anything!!! Otherwise you will flash into this device firmware from the thermostat and get a brick!!!! If the update process has already started by mistake, just turn off the device!!!
 
-Then wait for it to finish. After that, we see our thermostat in OTA with the old name but with the new` Firmware build date` and` Firmware version .`
-
-<img src="doc/images/z2m_tuya_update_4.jpg"/>
 
 This is what the log looks like on the first startup after upgrading from Tuya to custom firmware.
 
 ```
 OTA mode enabled. MCU boot from address: 0x8000
-Firmware version: v1.0.04
-Tuya bootloader
-Bootloader is overwritten. Reset
-OTA mode enabled. MCU boot from address: 0x8000
-Firmware version: v1.0.04
-SDK bootloader
-out_pkt <== 0x55AA0200010101000003
-inp_pkt ==> 0x55AA02000101001C7B2270223A2265646C38707A316B222C2276223A22312E302E30227D8D
-Tuya signature found: "edl8pz1k".
-Use modelId: Tuya_Thermostat_r02
+Firmware version: v1.0.22
+Tuya signature found: "lndsb16m"
+Use modelId: Tuya_Thermostat_r08
+Sent announcement
 ```
 
-When updating from the original firmware to a custom firmware, the memory area where the device's network address is stored is cleared. Therefore, after the update, simply enable pairing in `zigbee2mqtt`, and the thermostat will automatically connect to the network. All that remains is to force uninstall the old version of the thermostat.
-
-That's it, the thermostat is ready to go.
+---
 
 In Home Assistant, it looks like this
 
