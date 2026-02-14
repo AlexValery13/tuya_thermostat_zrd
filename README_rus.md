@@ -24,8 +24,7 @@
 | Tuya_Thermostat_r0B | `_TZE204_8byfmxdv` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r0b/README.md) |
 | Tuya_Thermostat_r0C | `_TZE204_szbxmorb` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r0c/README.md) |
 
-
-<img src="doc/images/model1.png"/>
+<img src="doc/images/model1.png" alt="image" width="25%" height="auto">
 <img src="doc/images/model1_2.png"/>
 <img src="doc/images/model3_1.png"/>
 <img src="doc/images/model3_2.png"/>
