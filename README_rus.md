@@ -70,7 +70,7 @@
 
 Нужно только переключиться в новый интерфейс - `zigbee2mqtt-windfront`.
 
-<a id="custom_ota_fw">Итак, скачиваем из репозитория [файл обновления](https://github.com/slacky1965/tuya_thermostat_zrd/raw/refs/heads/main/bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee). Заходим в устройство. И справа видим в `Firmware version` значок облака. Нам сюда.</a>
+Итак, скачиваем из репозитория <a id="custom_ota_fw">[файл обновления](https://github.com/slacky1965/tuya_thermostat_zrd/raw/refs/heads/main/bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee)</a>. Заходим в устройство. И справа видим в `Firmware version` значок облака. Нам сюда.
 
 <img src="doc/images/z2m-ota_device.jpg"/>
 
