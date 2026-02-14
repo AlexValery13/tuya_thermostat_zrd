@@ -78,7 +78,7 @@
 
 <img src="doc/images/z2m-ota_custom_firmware.jpg"/>
 
-После этого выбираем файл.
+После этого выбираем файл, который скачали ранее (см. выше).
 
 <img src="doc/images/z2m-ota_file_selection.jpg"/>
 
@@ -106,17 +106,12 @@
 
 ```
 OTA mode enabled. MCU boot from address: 0x8000
-Firmware version: v1.0.04
-Tuya bootloader
-Bootloader is overwritten. Reset
-OTA mode enabled. MCU boot from address: 0x8000
-Firmware version: v1.0.04
-SDK bootloader
-out_pkt <== 0x55AA02000101000003
-inp_pkt ==> 0x55AA02000101001C7B2270223A2265646C38707A316B222C2276223A22312E302E30227D8D
-Tuya signature found: "edl8pz1k"
-Use modelId: Tuya_Thermostat_r02
+Firmware version: v1.0.22
+Tuya signature found: "lndsb16m"
+Use modelId: Tuya_Thermostat_r08
+Sent announcement
 ```
+
 ---
 
 В Home Assistant это выглядит так
