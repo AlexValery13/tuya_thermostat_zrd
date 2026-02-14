@@ -52,7 +52,7 @@
 
 Only the thermostats listed above were checked. If you have a different signature,  it is better not to flash without checking for a datapoint match.
 
-**Theoretically, the firmware can be adapted for any thermostat with IEEE beginning with**
+**Theoretically, the firmware can be adapted for any thermostat with an IEEE beginning with**
 
 **`A4 C1 38`**
 
@@ -62,7 +62,7 @@ Only the thermostats listed above were checked. If you have a different signatur
 
 **If the IEEE start is different from the specified one, then the thermostat has a different chip in the Zigbee module, you can't use this project.**
 
-Only tested in `zigbee2mqtt`. As of April 2025 version of `zigbee2mqtt` no external converter is needed. Support is enabled globally.
+Only tested in `zigbee2mqtt`. As of the April 2025 version of `zigbee2mqtt`, no external converter is needed. Support is enabled globally.
 
 ## Why. 
 
@@ -84,7 +84,7 @@ To keep it from spamming the network. The first instance (see above) sent 25 pac
 
 First, add external [converter](zigbee2mqtt/convertors) `tuya_thermostat_orig.js` to z2m. He activates OTA in z2m for thermostat with Tuya firmware. Put the converter in the directory ` external_converters` , which should be created in the root of z2m.
 
-Next, you need to add a local update repository. 
+Next, you need to add a local update repository.
 
 Create a directory` images` in the z2m directory and put the file [1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee](bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee) there.
 
@@ -113,9 +113,9 @@ Hit the red button. And update.
 If the result is not as described, it means you did something wrong (did not put the file where it should be, did not reboot z2m) or your thermostat signature is not in the list of supported devices.
 
 > [!WARNING]
-> Attention!!! If in the process you find a new updateon other Tuya devices that you may still have in your system, you do not need to update anything!!!! Otherwise you will flash into this device firmware from the thermostat and get a brick!!!! If the update process has already started by mistake, just turn off the device!!!!
+> Attention!!! If, in the process, you find a new update for other Tuya devices that you may still have in your system, you do not need to update anything!!!! Otherwise, you will flash into this device firmware from the thermostat and get a brick!!!! If the update process has already started by mistake, just turn off the device!!!!
 
-Then wait for it to finish. After that we see our thermostat in OTA with the old name but with the new` Firmware build date` and` Firmware version .`
+Then wait for it to finish. After that, we see our thermostat in OTA with the old name but with the new` Firmware build date` and` Firmware version .`
 
 <img src="doc/images/z2m_tuya_update_4.jpg"/>
 
@@ -149,13 +149,13 @@ In Home Assistant, it looks like this
 
 ## How to write a new firmware version into an already updated thermostat.
 
-All updates will be available via z2m as new releases are released, you don't need to do anything specifically for this.
+All updates will be available via z2m as new releases are released; you don't need to do anything specifically for this.
 
 That's it!
 
 P.S. Not tested in real work, requires extensive testing.
 
-A more detailed description for the very first thermostat [here](https://habr.com/ru/articles/864740)
+A more detailed description of the very first thermostat [here](https://habr.com/ru/articles/864740)
 
 ---
 
