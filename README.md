@@ -5,64 +5,47 @@
 
 ### Custom firmware for Tuya thermostat models
 
-1. Model r01
-	- "[_TZE204_u9bfwha0](doc/thermostats/tuya_thermostat_r01/README.md)"
-	- "[_TZE204_aoclfnxz](doc/thermostats/tuya_thermostat_r01/README.md)"
-2. Model r02
-	- ["_TZE200_edl8pz1k"](doc/thermostats/tuya_thermostat_r02/README.md)
-	- ["_TZE204_edl8pz1k"](doc/thermostats/tuya_thermostat_r02/README.md)
-3. Model r03	
-	- ["_TZE204_tagezcph"](doc/thermostats/tuya_thermostat_r03/README.md)
-4. Model r04	
-	- ["_TZE204_xyugziqv"](doc/thermostats/tuya_thermostat_r04/README.md)
-5. Model r05
-	- ["_TZE204_5toc8efa"](doc/thermostats/tuya_thermostat_r05/README.md)
-6. Model r06
-	- ["_TZE204_lzriup1j"](doc/thermostats/tuya_thermostat_r06/README.md)
-	- ["_TZE204_oh8y8pv8"](doc/thermostats/tuya_thermostat_r06/README.md)
-	- ["_TZE204_gops3slb"](doc/thermostats/tuya_thermostat_r06/README.md)
-	- ["_TZE284_cvub6xbb"](doc/thermostats/tuya_thermostat_r06/README.md)
-7. Model r07
-	- ["_TZE204_mpbki2zm"](doc/thermostats/tuya_thermostat_r07/README.md)
-8. Model r08
-	- ["_TZE204_7rghpoxo"](doc/thermostats/tuya_thermostat_r08/README.md)
-	- ["_TZE200_7rghpoxo"](doc/thermostats/tuya_thermostat_r08/README.md)
-9. Model r09
-	- ["_TZE204_6a4vxfnv"](doc/thermostats/tuya_thermostat_r09/README.md)
-9. Model r0A
-	- ["_TZE284_xalsoe3m"](doc/thermostats/tuya_thermostat_r0a/README.md)
-10. Model r0B
-	- ["_TZE204_8byfmxdv"](doc/thermostats/tuya_thermostat_r0b/README.md)
-11. Model r0C
-	- ["_TZE204_szbxmorb"](doc/thermostats/tuya_thermostat_r0c/README.md)
+<img src="doc/images/model1.png" alt="image" width="17%" height="auto"> <img src="doc/images/model1_2.png" alt="image" width="14%" height="auto"> <img src="doc/images/model3_1.png" alt="image" width="15%" height="auto"> <img src="doc/images/model3_2.png" alt="image" width="15%" height="auto"> <img src="doc/images/model4.png" alt="image" width="13%" height="auto"> <img src="doc/images/model5.png" alt="image" width="15%" height="auto">
 
-<img src="doc/images/model1.png"/>
-<img src="doc/images/model1_2.png"/>
-<img src="doc/images/model3_1.png"/>
-<img src="doc/images/model3_2.png"/>
-<img src="doc/images/model4.png"/>
-<img src="doc/images/model5.png"/>
-<img src="doc/images/model6.png"/>
-<img src="doc/images/model7.png"/>
-<img src="doc/images/model8.png"/>
-<img src="doc/images/model9.png"/>
-<img src="doc/images/model0b.png"/>
+<img src="doc/images/model6.png" alt="image" width="15%" height="auto"> <img src="doc/images/model7.png" alt="image" width="15%" height="auto"> <img src="doc/images/model8.png" alt="image" width="15%" height="auto"> <img src="doc/images/model9.png" alt="image" width="15%" height="auto"> <img src="doc/images/model0b.png" alt="image" width="15%" height="auto">
+
+<!--
+| Custom Zigbee Model | Original Zigbee Manufacturer | Description       |
+|:-------------------:|:----------------------------:|:-----------------:|
+| Tuya_Thermostat_r01 | _TZE204_u9bfwha0             | [:bookmark_tabs:] |
+| Tuya_Thermostat_r02 | _TZE200_edl8pz1k             | [:bookmark_tabs:] |
+-->
+
+| Custom Zigbee Model | Original Zigbee Manufacturer | Description |
+|:-------------------:|:----------------------------:|:-----------:|
+| Tuya_Thermostat_r01 | `_TZE204_u9bfwha0` `_TZE204_aoclfnxz` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r01/README.md) |
+| Tuya_Thermostat_r02 | `_TZE200_edl8pz1k` `_TZE204_edl8pz1k` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r02/README.md) |
+| Tuya_Thermostat_r03 | `_TZE204_tagezcph` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r03/README.md) |
+| Tuya_Thermostat_r04 | `_TZE204_xyugziqv` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r04/README.md) |
+| Tuya_Thermostat_r05 | `_TZE204_5toc8efa` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r05/README.md) |
+| Tuya_Thermostat_r06 | `_TZE204_lzriup1j` `_TZE204_oh8y8pv8` `_TZE204_gops3slb` `_TZE284_cvub6xbb`| [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r06/README.md) |
+| Tuya_Thermostat_r07 | `_TZE204_mpbki2zm` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r07/README.md) |
+| Tuya_Thermostat_r08 | `_TZE204_7rghpoxo` `_TZE200_7rghpoxo` `_TZE200_lndsb16m` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r08/README.md) |
+| Tuya_Thermostat_r09 | `_TZE204_6a4vxfnv` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r09/README.md) |
+| Tuya_Thermostat_r0A | `_TZE284_xalsoe3m` `_TZE204_xalsoe3m` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r0a/README.md) |
+| Tuya_Thermostat_r0B | `_TZE204_8byfmxdv` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r0b/README.md) |
+| Tuya_Thermostat_r0C | `_TZE204_szbxmorb` | [:bookmark_tabs:](doc/thermostats/tuya_thermostat_r0c/README.md) |
 
 **The author assumes no responsibility if you turn your smart thermostat into a half-witted thermostat by using this project.**
 
 Only the thermostats listed above were checked. If you have a different signature,  it is better not to flash without checking for a datapoint match.
 
-**Theoretically, the firmware can be adapted for any thermostat with IEEE beginning with**
+**Theoretically, the firmware can be adapted for any thermostat with an IEEE beginning with**
 
 **`A4 C1 38`**
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/device_ieee.jpg"/>
+<img src="doc/images/device_ieee.jpg"/>
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/about_ieee.jpg"/>
+<img src="doc/images/about_ieee.jpg"/>
 
 **If the IEEE start is different from the specified one, then the thermostat has a different chip in the Zigbee module, you can't use this project.**
 
-Only tested in `zigbee2mqtt`. As of April 2025 version of `zigbee2mqtt` no external converter is needed. Support is enabled globally.
+Only tested in `zigbee2mqtt`. As of the April 2025 version of `zigbee2mqtt`, no external converter is needed. Support is enabled globally.
 
 ## Why. 
 
@@ -71,108 +54,84 @@ To keep it from spamming the network. The first instance (see above) sent 25 pac
 ## Result. 
 
 **About**
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_about.jpg"/>
+<img src="doc/images/z2m_about.jpg"/>
 
 **Exposes**
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_exposes.jpg"/>
+<img src="doc/images/z2m_exposes.jpg"/>
 
 **Reporting**
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_reporting.jpg"/>
+<img src="doc/images/z2m_reporting.jpg"/>
 
 
 ## How to update.
 
-First, add external [converter](https://github.com/slacky1965/tuya_thermostat_zrd/tree/main/zigbee2mqtt/convertors) `tuya_thermostat_orig.js` to z2m. He activates OTA in z2m for thermostat with Tuya firmware. Put the converter in the directory ` external_converters` , which should be created in the root of z2m.
+With the release of the new version, `zigbee2mqtt` updating has become much easier.
 
-Next, you need to add a local update repository. 
+<img src="doc/images/z2m-version.jpg"/>
 
-Create a directory` images` in the z2m directory and put the file [1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee](https://github.com/slacky1965/tuya_thermostat_zrd/raw/refs/heads/main/bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee) there.
+You just need to switch to the new interface - `zigbee2mqtt-windfront`.
 
-Copy the file [local_ota_index.json](https://github.com/slacky1965/tuya_thermostat_zrd/raw/refs/heads/main/zigbee2mqtt/local_ota_index.json) to the z2m directory.
+So, let's download it from the repository <a id="custom_ota_fw">[Update file](https://github.com/slacky1965/tuya_thermostat_zrd/raw/refs/heads/main/bin/1141-d3a3-1111114b-tuya_thermostat_zrd.zigbee)</a>. Go to the device. And on the right, you'll see `Firmware versiona` cloud icon. This is where we'll go.
 
-And add local storage to the z2m config (configuration.yaml)
+<img src="doc/images/z2m-ota_device.jpg"/>
 
-```
-ota:
-  zigbee_ota_override_index_location: local_ota_index.json
-```
+Next, select `Custom firmware` from the list that opens.
 
-Then reboot z2m and see a new device (if the thermostat was already in the network and visible in z2m).
+<img src="doc/images/z2m-ota_custom_firmware.jpg"/>
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_1.jpg"/>
+After this, select the file you downloaded earlier (see [above](#custom_ota_fw)).
 
-Then go to the OTA section. And see your device there. Click check for updates.
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_1.jpg"/>
+<img src="doc/images/z2m-ota_file_selection.jpg"/>
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_2.jpg"/>
+And click update.
 
-Hit the red button. And update.
+<img src="doc/images/z2m-ota_update.jpg"/>
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_3.jpg"/>
+To see if the update has started, look at the thermostat icon  a rotating circle with arrows should appear. In `Recent activity` the remaining time in seconds and the download percentage will be displayed.
 
-If the result is not as described, it means you did something wrong (did not put the file where it should be, did not reboot z2m) or your thermostat signature is not in the list of supported devices.
+<img src="doc/images/z2m-ota_process.jpg"/>
+
+And all this will be recorded in the log.
+
+<img src="doc/images/z2m-ota_log.jpg"/>
+
+After the update is complete, the first time you launch the custom firmware, it copies `bootloader` and clears the memory area where the device's network address is stored. Therefore, after the update, simply allow pairing, `zigbee2mqtt` and the thermostat will automatically connect to the network. All that remains is to forcefully uninstall the old version of the thermostat.
+
+That's it, the thermostat is ready to go.
 
 > [!WARNING]
-> Attention!!! If in the process you find a new updateon other Tuya devices that you may still have in your system, you do not need to update anything!!!! Otherwise you will flash into this device firmware from the thermostat and get a brick!!!! If the update process has already started by mistake, just turn off the device!!!!
+> Attention!!! If in the process you find a new updateon other Tuya devices that you may still have in your system, you do not need to update anything!!! Otherwise you will flash into this device firmware from the thermostat and get a brick!!! If the update process has already started by mistake, just turn off the device!!!
 
-Then wait for it to finish. After that we see our thermostat in OTA with the old name but with the new` Firmware build date` and` Firmware version .`
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_4.jpg"/>
 
 This is what the log looks like on the first startup after upgrading from Tuya to custom firmware.
 
 ```
 OTA mode enabled. MCU boot from address: 0x8000
-Firmware version: v1.0.04
-Tuya bootloader
-Bootloader is overwritten. Reset
-OTA mode enabled. MCU boot from address: 0x8000
-Firmware version: v1.0.04
-SDK bootloader
-out_pkt <== 0x55AA0200010101000003
-inp_pkt ==> 0x55AA02000101001C7B2270223A2265646C38707A316B222C2276223A22312E302E30227D8D
-Tuya signature found: "edl8pz1k".
-Use modelId: Tuya_Thermostat_r02
+Firmware version: v1.0.22
+Tuya signature found: "lndsb16m"
+Use modelId: Tuya_Thermostat_r08
+Sent announcement
 ```
 
-Next, go to the `Devices` section and click on our thermostat on the right side with the symbol "i" and confirm. In this way we force the device to go through the interview again.
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_int_1.jpg"/>
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_int_1.jpg"/>
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_int_2.jpg"/>
-
-Then click the <img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_recfg.jpg"/> symbol again on the right side. This forces the device to go through the configuration again.
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_recfg_1.jpg"/>
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_recfg_2.jpg"/>
-
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/z2m_tuya_update_recfg_3.jpg"/>
-
-That's it, the thermostat is ready to go.
-
-> [!WARNING]
-> Attention!!! If the thermostat remains with the old name after a successful update and all the above instructions have been followed, remove it from the network, reboot z2m and pair it again. If during the pairing process the thermostat blinks with the network icon but nothing happens, remove power from the thermostat (unplug it from electricity) and re-power it.
+---
 
 In Home Assistant, it looks like this
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/HA_3.jpg"/>
+<img src="doc/images/HA_3.jpg"/>
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/HA_1.jpg"/>
+<img src="doc/images/HA_1.jpg"/>
 
-<img src="https://raw.githubusercontent.com/slacky1965/tuya_thermostat_zrd/refs/heads/main/doc/images/HA_2.jpg"/>
+<img src="doc/images/HA_2.jpg"/>
 
 ## How to write a new firmware version into an already updated thermostat.
 
-All updates will be available via z2m as new releases are released, you don't need to do anything specifically for this.
+All updates will be available via z2m as new releases are released; you don't need to do anything specifically for this.
 
 That's it!
 
 P.S. Not tested in real work, requires extensive testing.
 
-A more detailed description for the very first thermostat [here](https://habr.com/ru/articles/864740)
+A more detailed description of the very first thermostat [here](https://habr.com/ru/articles/864740)
 
 ---
 
@@ -299,6 +258,9 @@ Thanks :))))
 	- Fixed a bug with the schedule divider.
 - 1.0.21
 	- Fixed error of enabling programming mode for Model r07 `_TZE204_mpbki2zm`.
+- 1.0.22
+	- The bootloader replacement procedure has been changed. Now, updating from the original firmware to the custom one is a single operation.
+	- Added thermostat with signature `_TZE200_lndsb16m`
 	
 [Top](#Top)
 
