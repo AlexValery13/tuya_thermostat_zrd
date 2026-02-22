@@ -215,30 +215,24 @@ typedef enum {
 } data_point_id_type7_t;
 
 /* data point for manufacturer id -
- * "7rghpoxo"
- * "_TZE200_lndsb16m"
+ * "bfd02c7321f161bb6646vi" (customized Wi-Fi to Zigbee mod)
  *
  * type8 (model8)
 */
 typedef enum {
     DP_TYPE8_ID_00    = 0x00,     // 0 - not support
-    DP_TYPE8_ID_01    = 0x01,     // on off
-    DP_TYPE8_ID_02    = 0x02,     // heat setpoint
-    DP_TYPE8_ID_03    = 0x03,     // local temperature
-    DP_TYPE8_ID_09    = 0x09,     // lock / unlock keys
-    DP_TYPE8_ID_0B    = 0x0B,     // ???
-    DP_TYPE8_ID_0F    = 0x0F,     // max heat
-    DP_TYPE8_ID_10    = 0x10,     // min heat
-    DP_TYPE8_ID_13    = 0x13,     // calibration
-    DP_TYPE8_ID_65    = 0x65,     // calibration of external senor
-    DP_TYPE8_ID_66    = 0x66,     // 0x00 - heat, 0x01 - idle
-    DP_TYPE8_ID_67    = 0x67,     // sleep mode
-    DP_TYPE8_ID_68    = 0x68,     // manual 0 / programming 1
-    DP_TYPE8_ID_69    = 0x69,     // schedule workweek, sat, sun
-    DP_TYPE8_ID_6A    = 0x6A,     // set hour of schedule
-    DP_TYPE8_ID_6B    = 0x6B,     // set minutes of schedule
-    DP_TYPE8_ID_6C    = 0x6C,     // set temperature of schedule
-    DP_TYPE8_ID_6D    = 0x6D,     // time period of schedule (in quantity 6)
+    DP_TYPE8_ID_01    = 0x01,     // Power (On/Off)
+    DP_TYPE8_ID_02    = 0x02,     // Target Temperature (Setpoint)
+    DP_TYPE8_ID_03    = 0x03,     // Current Room Temperature (Sensor)
+    DP_TYPE8_ID_04    = 0x04,     // Child Lock (Lock/Unlock)
+    DP_TYPE8_ID_65    = 0x65,     // External Sensor Calibration (ID 101)
+    DP_TYPE8_ID_66    = 0x66,     // Working Status (Heating/Idle, ID 102)
+    DP_TYPE8_ID_67    = 0x67,     // Upper Temperature Limit (ID 103)
+    DP_TYPE8_ID_68    = 0x68,     // Internal Sensor Calibration (ID 104)
+    DP_TYPE8_ID_69    = 0x69,     // Lower Temperature Limit (ID 105)
+    DP_TYPE8_ID_6A    = 0x6A,     // Week Program Schedule (ID 106)
+    DP_TYPE8_ID_6B    = 0x6B,     // Week Program Switch (ID 107)
+    DP_TYPE8_ID_6C    = 0x6C,     // Sleep Mode (ID 108)
 } data_point_id_type8_t;
 
 /* data point for manufacturer id -
