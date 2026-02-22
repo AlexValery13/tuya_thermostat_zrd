@@ -88,7 +88,7 @@ uint8_t manuf_name = MANUF_NAME_1;
 
 // Not worked in gcc 4.5.1
 //data_point_st_t *data_point_model = data_point_model_arr[MANUF_NAME_1];
-data_point_st_t *data_point_model = NULL; //data_point_model1;
+data_point_st_t *data_point_model = data_point_model8; //data_point_model8;
 
 schedule_model8_t schedule_model8[3];
 
