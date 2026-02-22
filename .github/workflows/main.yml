@@ -1,0 +1,22 @@
+name: Build Telink Firmware
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: tasmota/builder:latest # Попробуем контейнер от Tasmota, там часто есть Telink
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: |
+          # Команда сборки может отличаться, пробуем запустить make
+          make -C src 
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tlsr8258-firmware
+          path: src/*.bin
